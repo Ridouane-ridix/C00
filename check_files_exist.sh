@@ -1,9 +1,8 @@
 #!/bin/bash
-# Script pour vérifier si un fichier .txt existe
-
-read -p "Entrez le nom du fichier :" filename
-filename="$filename.txt"
-
+# Demande de saisir un fichier à vérifier
+echo "Entrez le nom du fichier :"
+read filename
+# Vérification de l'existence du fichier
 if [ -f "$filename" ]; then
     echo "Le fichier '$filename' existe."
 else

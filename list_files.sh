@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script lists all files in the current directory with detailed information
+# Script permet de  lister les fichiers dans le répertoire courant"
 ls -l
 
 

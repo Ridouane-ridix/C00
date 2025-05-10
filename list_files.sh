@@ -1,5 +1,5 @@
 #!/bin/bash
-# ce script to list files in the current directory
+# This script lists all files in the current directory with detailed information
 ls -l
- 
+
 
